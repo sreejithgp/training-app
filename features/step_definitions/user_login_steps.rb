@@ -30,7 +30,7 @@ Then("I need to see error message") do
   expect(response)
     .to eq({"code":2,
             "status":"failure",
-            "message":"Could  not validate user/password",
+            "message":"Could not validate user/password",
             "description":"Please check if your email/password are correct."}
     .as_json)
 end
